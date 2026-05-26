@@ -1,24 +1,88 @@
-# Compiled class file
+# =========================
+# Java / Maven / Gradle
+# =========================
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
 *.ear
+
+target/
+build/
+out/
+.gradle/
+
+# Maven Wrapper
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# BlueJ
+*.ctxt
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
+
+# =========================
+# Kafka / Spark / Databricks
+# =========================
+kafka-logs/
+spark-warehouse/
+metastore_db/
+
+# =========================
+# Compressed files
+# =========================
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# =========================
+# J2ME
+# =========================
+.mtj.tmp/
+
